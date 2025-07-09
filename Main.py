@@ -72,8 +72,6 @@ while True:
           f"(Polarity: {polarity:.2f}){Style.RESET_ALL}")
 
 
-
-
                 
 
                        
