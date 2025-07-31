@@ -46,7 +46,7 @@ while True:
             thumb_tip = hand_landmarks.landmark[mp_hands.HandLandmark.THUMB_TIP]
             index_tip = hand_landmarks.landmark[mp_hands.HandLandmark.INDEX_FINGER_TIP]
 
-            h, w, _ = img.shape()
+            h, w, _ = img.shape
             thumb_pos = (int(thumb_tip.x * w), int(thumb_tip.y *h))
             index_pos = (int(index_tip.x * w), int(index_tip.y *h))
 
